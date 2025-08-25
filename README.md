@@ -21,6 +21,10 @@ PowerShell script which strips time codes from file names.
 
 Klickt Fehlermeldungen in Lightroom Classic weg, wenn das Plug-in LRGeniusTagAI einen Timeout-Fehler macht. Scheint seit 22.8.2025 nicht mehr notwendig zu sein mit der aktuellen Version des Plug-ins.
 
+--> erstellt mit Hilfe der KI Claude-Sonnet-4 von Anthropic.
+
 ## fix_by_foldername_clean.ps1
 
 Korrigiert Aufnahmedatum von Bildern, die man per Messenger zugesendet bekommen hat und deshalb als Aufnahmedatum in Exif als Aufnahmedatum das Import-Datum bekommt, obwohl Lightroom für den Dateinamen beim Umbenennen den Zeitstempel für den Empfang des Bilds enthält. Wenn man den Ordner in YYYY-MM-DD umbenennt, wird das außerdem noch dieser Tag für den Zeitstempel berücksichtigt, weil ja auch der Zeitstempel für den Empfang des Bilds nicht der Zeitstempel für das Aufnahmedatum ist.
+
+--> erstellt mit Hilfe der KI Claude-Sonnet-4 von Anthropic.
